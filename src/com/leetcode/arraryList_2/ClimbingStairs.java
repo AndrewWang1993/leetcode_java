@@ -17,7 +17,8 @@ public class ClimbingStairs {
 	/**
 	 * Too wasting time
 	 */
-	 private static long climbStair(long n) {
+	 @SuppressWarnings("unused")
+	private static long climbStair(long n) {
 		if (n == 1) {
 			return 1;
 		}
