@@ -6,6 +6,7 @@ public class RotateImage {
 	 * 90 degrees (clockwise). Follow up: Could you do this in-place?
 	 */
 
+	@SuppressWarnings("unused")
 	private static void leftRightFlip(int[][] testArray2) {
 		int r = testArray2.length;
 		int c = testArray2[0].length;
@@ -95,14 +96,15 @@ public class RotateImage {
 			                 	{ 6, 9, 8 } };
 		// getMutil(testArray1, testArray2);
 		// System.out.println();
-		// rotate90Degree(testArray1);
+		 System.out.println("testArray1rotate90Degree");
+		 rotate90Degree(testArray1);
 		// System.out.println("leftRightFlip");
 		// leftRightFlip(testArray2);
 		// System.out.println("upBelowFlip");
 		// upBelowFlip(testArray2);
 		// System.out.println("leftTopAndrightBelowFlip");
 		// leftTopAndrightBelowFlip(testArray2);
-		 System.out.println("rotate90Degree");
+		 System.out.println("testArray2rotate90Degree");
 		 rotate90Degree(testArray2);
 	}
 
