@@ -1,4 +1,4 @@
-package com.leetcode.arraryList_2;
+package com.leetcode.List_2.ArrayList;
 
 public class RemoveDupliFromSorted_2 {
 	/**
