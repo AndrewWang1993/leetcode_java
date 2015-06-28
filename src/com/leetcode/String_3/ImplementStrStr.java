@@ -40,5 +40,13 @@ public class ImplementStrStr {
 		}
 		return -1;
 	}
+	
+	
+	//KMP O(m+n)
+	//TODO implemetn KMP
+	private int KMP(String origin,String match){
+		return 0;
+		
+	}
 
 }
