@@ -20,7 +20,7 @@ package com.leetcode.String_3;
  * (2147483647) or INT_MIN (-2147483648) is returned.
  *
  */
-public class String2Integer {
+public class _3_String2Integer {
 
 	// 1、去除空格，记住正负
 	// 2、去除无关的英文字符
@@ -35,7 +35,7 @@ public class String2Integer {
 
 	public static void main(String[] args) {
 		String str = "4521";
-		String2Integer s2i = new String2Integer();
+		_3_String2Integer s2i = new _3_String2Integer();
 		str = s2i.RemoveSpace(str);
 		s2i.checkSacle(str);
 		str = s2i.toUpper(str);

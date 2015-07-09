@@ -7,10 +7,10 @@ package com.leetcode.String_3;
  Note: A word is defined as a character sequence consists of non-space characters only.
  For example, Given s = "Hello World", return 5.
  */
-public class LenghtOfLastWord {
+public class _15_LenghtOfLastWord {
 public static void main(String[] args) {
 	String str="Hellow word it";
-	System.out.println(new LenghtOfLastWord().getLastWordLength(str));
+	System.out.println(new _15_LenghtOfLastWord().getLastWordLength(str));
 }
 private int getLastWordLength(String str) {
 	int len=str.length();

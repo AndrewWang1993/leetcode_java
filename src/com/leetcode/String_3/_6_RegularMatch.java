@@ -9,7 +9,7 @@ import java.util.Iterator;
  '.' Matches any single character. '*' Matches zero or more of the preceding element.
  The matching should cover the entire input string (not partial).
  */
-public class RegularMatch1 {
+public class _6_RegularMatch {
 
 	public static void main(String[] args) {
 		String mstr = "aaaaabbbbcd";
@@ -19,7 +19,7 @@ public class RegularMatch1 {
 		String mstr2 = "aaadesabbabad1";
 		String patt2 = ".*abad."; // greedy mode
 		String patt3 = ".*abad.*"; // greedy mode
-		System.out.println(new RegularMatch1().findMatch(mstr2, patt3));
+		System.out.println(new _6_RegularMatch().findMatch(mstr2, patt3));
 	}
 
 	/**

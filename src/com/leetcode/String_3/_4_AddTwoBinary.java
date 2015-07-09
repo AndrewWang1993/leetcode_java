@@ -1,10 +1,10 @@
 package com.leetcode.String_3;
 
-public class AddTwoBinary {
+public class _4_AddTwoBinary {
 	public static void main(String[] args) {
 		String bin1 = "    11";
 		String bin2 = "1";
-		System.out.println(new AddTwoBinary().addTwobinary(bin1, bin2));
+		System.out.println(new _4_AddTwoBinary().addTwobinary(bin1, bin2));
 	}
 
 	private String addTwobinary(String bin1, String bin2) {

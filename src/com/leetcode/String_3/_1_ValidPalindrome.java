@@ -10,10 +10,10 @@ package com.leetcode.String_3;
  *
  */
 
-public class ValidPalindrome {
+public class _1_ValidPalindrome {
 	public static void main(String[] args) {
-		new ValidPalindrome().checkPalindrom("A man, a plan, a canal: Panama");
-		new ValidPalindrome().checkPalindrom("raCe A cAr");
+		new _1_ValidPalindrome().checkPalindrom("A man, a plan, a canal: Panama");
+		new _1_ValidPalindrome().checkPalindrom("raCe A cAr");
 	}
 
 	private boolean checkPalindrom(String str) {

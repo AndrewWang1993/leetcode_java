@@ -9,12 +9,12 @@ import java.util.Stack;
  path = "/home/", => "/home"
  path = "/a/./b/../../c/", => "/c"
  */
-public class SimplePath {
+public class _14_SimplePath {
 	public static void main(String[] args) {
 		String path = "/home/./boy/./../../co/";
 		String path1 = "/home/.//boy////./../../co/";
 		String path2 = "/../";
-		System.out.println(new SimplePath().simplePaht(path1));
+		System.out.println(new _14_SimplePath().simplePaht(path1));
 	}
 
 	private String simplePaht(String str) {

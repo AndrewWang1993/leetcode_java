@@ -6,11 +6,11 @@ package com.leetcode.String_3;
  *
  */
 
-public class ImplementStrStr {
+public class _2_ImplementStrStr {
 	public static void main(String[] args) {
 		String origin = "abc32ds324ds3cs";
 		String match = "324";
-		new ImplementStrStr().toMatch(origin, match);
+		new _2_ImplementStrStr().toMatch(origin, match);
 	}
 
 	// BF O(m+n)
